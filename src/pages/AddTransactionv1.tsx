@@ -125,7 +125,7 @@ const AddTransactionv1: React.FC = () => {
           </tbody>
         </Table>
       </div>
-
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       {/* Sticky footer for balance */}
       <footer className="fixed-bottom bg-light p-3">
         <Card className="text-center">
