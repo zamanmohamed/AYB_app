@@ -1,11 +1,7 @@
 import React from "react";
-import LivePreview from "./live-preview";
 
 const Index = () => {
-
-  return (
-    <LivePreview />
-  )
+  return <div>Hi</div>;
 };
 
 export default Index;
