@@ -49,7 +49,7 @@ const AddCustomer: React.FC = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/addTransaction">Add Transaction</Nav.Link>
+              <Nav.Link href="/AddTransaction">Add Transaction</Nav.Link>
               <Nav.Link href="/addCustomer">Add Customer</Nav.Link>
             </Nav>
           </Navbar.Collapse>
