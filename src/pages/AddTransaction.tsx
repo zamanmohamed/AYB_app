@@ -58,9 +58,13 @@ const AddTransaction: React.FC = () => {
     values: TransactionFormValues,
     resetForm: () => void
   ) => {
-    dispatch(createTransaction({ ...values, customer_Id: values.customer }));
+    dispatch(
+      createTransaction({ ...values, customer_Id: values.customer })
+    ).then((e) => {
+      window.location.reload();
+    });
     setTransactions((val) => !val);
-    window.location.reload();
+    // window.location.reload();
     resetForm();
     setSelectedLink(null);
   };
